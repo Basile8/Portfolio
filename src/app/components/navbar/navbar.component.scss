@@ -77,3 +77,19 @@
 .hamburger-icon span:first-child {
   transform: none;
 }
+
+.language-container {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between items, adjust as needed */
+}
+
+.language-container-item {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.25rem;
+  color: black;
+  text-decoration: none;
+  transition: all 0.3 ease-in-out;
+}
