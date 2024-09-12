@@ -1,0 +1,43 @@
+/* PROJECTS SECTION */
+
+#projects {
+  position: relative;
+  height:fit-content;
+}
+
+.color-container {
+  border-color: rgb(163, 163, 163);
+  background: rgb(255, 255, 255);
+}
+
+.project-img {
+  border-radius: 2rem;
+  width: 90%;
+  height: 90%;
+}
+
+.project-title {
+  margin: 1rem;
+  color: black;
+}
+
+.project-btn {
+  color: black;
+  border-color: rgb(163, 163, 163);
+}
+
+.experience-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.about-containers,
+.about-details-container {
+  display: flex;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+}
