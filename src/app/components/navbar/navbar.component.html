@@ -1,26 +1,26 @@
     <nav id="desktop-nav">
       <div class="language-container">
-        <div class="logo language-container-item">{{ 'HOME.TITLE' | translate }}</div>
+        <div class="logo language-container-item">{{ 'PROFILE.LANGUAGE' | translate }}</div>
         <select class = "language-container-item"(change)="SwitchLanguage($event)">
+          <option value="fr">Français</option>
           <option value="en">English</option>
-          <option value="fr">French</option>
         </select>
       </div>
       <div>
         <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">{{ 'PROFILE.ABOUT_NAVLINK' | translate }}</a></li>
+          <li><a href="#experience">{{ 'PROFILE.SKILLS_NAVLINK' | translate }}</a></li>
+          <li><a href="#projects">{{ 'PROFILE.PROJECTS_NAVLINK' | translate }}</a></li>
+          <li><a href="#contact">{{ 'PROFILE.CONTACT_NAVLINK' | translate }}</a></li>
         </ul>
       </div>
     </nav>
     <nav id="hamburger-nav">
       <div class="language-container">
-        <div class="logo language-container-item">{{ 'HOME.TITLE' | translate }}</div>
+        <div class="logo language-container-item">{{ 'PROFILE.LANGUAGE' | translate }}</div>
         <select class = "language-container-item"(change)="SwitchLanguage($event)">
           <option value="en">English</option>
-          <option value="fr">French</option>
+          <option value="fr">Français</option>
         </select>
       </div>
       <div class="hamburger-menu">
@@ -30,10 +30,10 @@
           <span></span>
         </div>
         <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          <li><a href="#about" onclick="toggleMenu()">{{ 'PROFILE.ABOUT_NAVLINK' | translate }}</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">{{ 'PROFILE.SKILLS_NAVLINK' | translate }}</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">{{ 'PROFILE.PROJECTS_NAVLINK' | translate }}</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">{{ 'PROFILE.CONTACT_NAVLINK' | translate }}</a></li>
         </div>
       </div>
     </nav>

@@ -1,86 +1,42 @@
 <section id="projects">
-    <p class="section__text__p1">Browse My Recent</p>
-    <h1 class="title">Projects</h1>
+    <p class="section__text__p1">{{ 'PROJECTS.PRESENTATION_TEXT' | translate }}</p>
+    <h1 class="title">{{ 'PROJECTS.TITLE' | translate }}</h1>
     <div class="experience-details-container">
     <div class="about-containers">
         <div class="details-container color-container">
         <div class="article-container">
-            <img
-            src="./assets/Images/project-1.png"
-            alt="Project 1"
-            class="project-img"
-            />
-        </div>
-        <h2 class="experience-sub-title project-title">Project One</h2>
-        <div class="btn-container">
-            <button
-            class="btn btn-color-2 project-btn"
-            onclick="location.href='https://github.com/'"
-            >
-            Github
-            </button>
-            <button
-            class="btn btn-color-2 project-btn"
-            onclick="location.href='https://github.com/'"
-            >
-            Live Demo
-            </button>
-        </div>
+            <img src="./assets/Images/project-1.png" alt="Project 1" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">{{ 'PROJECTS.PROJET_1_TITLE' | translate }}</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+                 <button class="btn btn-color-2 project-btn" (click)="openModal(projectOne)">{{ 'PROJECTS.BUTTON_DETAILS' | translate }}</button>
+            </div>
         </div>
         <div class="details-container color-container">
         <div class="article-container">
-            <img
-            src="./assets/Images/project-2.png"
-            alt="Project 2"
-            class="project-img"
-            />
-        </div>
-        <h2 class="experience-sub-title project-title">Project Two</h2>
-        <div class="btn-container">
-            <button
-            class="btn btn-color-2 project-btn"
-            onclick="location.href='https://github.com/'"
-            >
-            Github
-            </button>
-            <button
-            class="btn btn-color-2 project-btn"
-            onclick="location.href='https://github.com/'"
-            >
-            Live Demo
-            </button>
-        </div>
+            <img src="./assets/Images/project-2.png" alt="Project 2" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">{{ 'PROJECTS.PROJET_2_TITLE' | translate }}</h2>
+            <div class="btn-container"> 
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+                 <button class="btn btn-color-2 project-btn" (click)="openModal(projectTwo)">{{ 'PROJECTS.BUTTON_DETAILS' | translate }}</button>
+            </div>
         </div>
         <div class="details-container color-container">
-        <div class="article-container">
-            <img
-            src="./assets/Images/project-3.png"
-            alt="Project 3"
-            class="project-img"
-            />
-        </div>
-        <h2 class="experience-sub-title project-title">Project Three</h2>
-        <div class="btn-container">
-            <button
-            class="btn btn-color-2 project-btn"
-            onclick="location.href='https://github.com/'"
-            >
-            Github
-            </button>
-            <button
-            class="btn btn-color-2 project-btn"
-            onclick="location.href='https://github.com/'"
-            >
-            Live Demo
-            </button>
-        </div>
+            <div class="article-container">
+                <img src="./assets/Images/project-3.png" alt="Project 3" class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">{{ 'PROJECTS.PROJET_3_TITLE' | translate }}</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+                 <button class="btn btn-color-2 project-btn" (click)="openModal(projectThree)">{{ 'PROJECTS.BUTTON_DETAILS' | translate }}</button>
+            </div>
         </div>
     </div>
     </div>
-    <img
-    src="./assets/arrow.png"
-    alt="Arrow icon"
-    class="icon arrow"
-    onclick="location.href='./#contact'"
-    />
+    <img src="./assets/Images/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'"/>
+
+    <app-modal *ngIf="isModalOpen" [project]="selectedProject" (close)="closeModal()"></app-modal>
+
 </section>

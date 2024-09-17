@@ -14,6 +14,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { ModalComponent } from './modal/modal.component';
 
 // Fonction pour charger les fichiers de traduction
 export function HttpLoaderFactory(http: HttpClient) {
@@ -29,7 +30,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     ExperienceComponent,
     ProjectsComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    ModalComponent
   ],
   imports: [
     HttpClientModule,

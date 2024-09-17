@@ -1,0 +1,26 @@
+<div class="modal-overlay" (click)="closeModal()">
+  <div class="modal-content" (click)="$event.stopPropagation()">
+    <div class="modal-header">
+      <h2>{{ project?.title }}</h2>
+      <button class="close-btn" (click)="closeModal()">X</button>
+    </div>
+
+    <div class="modal-body">
+      <div class="modal-slider">
+        <button class="slider-nav prev" (click)="prevImage()">&#10094;</button>
+        <div class="slider-images">
+          <img *ngIf="currentImage" [src]="currentImage" alt="{{ project?.title }} image" />
+        </div>
+        <button class="slider-nav next" (click)="nextImage()">&#10095;</button>
+      </div>
+      <div class="modal-description">
+        <h3>{{ 'PROJECTS.SUBTITLE' | translate }}</h3>
+        <p>{{ project?.description }}</p>
+      </div>
+    </div>
+
+    <div class="modal-footer">
+      <p>{{ 'PROJECTS.TECHNOLOGIES_TEXT' | translate }} {{ project?.technologies }}</p>
+    </div>
+  </div>
+</div>
