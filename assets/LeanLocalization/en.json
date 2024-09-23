@@ -1,0 +1,78 @@
+{
+  "PROFILE": {
+    "LANGUAGE": "Language : ",
+    "ABOUT_NAVLINK": "About",
+    "SKILLS_NAVLINK": "Skills",
+    "PROJECTS_NAVLINK": "Projects",
+    "CONTACT_NAVLINK": "Contact",
+    "PRESENTATION_TEXT": "Hello, I'm ",
+    "NAME": "Basile Gallot",
+    "JOB": "Software Developer",
+    "DOWNLOAD_CV_BUTTON": "Download CV",
+    "CONTACT_INFO_BUTTON": "Contact Info"
+  },
+  "ABOUT": {
+    "PRESENTATION_TEXT": "Get To Know More",
+    "TITLE" : "About Me",
+    "EXPERIENCE_BLOC_TITLE" : "Experience",
+    "EXPERIENCE_BLOC_DURATION" : "2 years",
+    "EXPERIENCE_BLOC_DOMAIN" : "Software Development",
+    "EDUCATION_BLOC_TITLE" : "Education",
+    "EDUCATION_BLOC_DEGREE" : "Master of Science in engineering, specialized in computer science",
+    "CONTENT_TEXT" : "My name is Basile, a young developer with a passion for IT, always curious to learn and take on new challenges. Specialized in backend development, I also like to improve on other technologies like Angular for frontend development. My aim is to create robust, high-performance solutions while continuing to develop my skills in various areas of development. Aside from coding, I like to play video games, and I usually go in for a workout several times a week, which allows me to burn off some energy and take my mind off things. Looking forward to meeting you !"
+  },
+  "SKILLS": {
+    "PRESENTATION_TEXT": "Discover my main",
+    "TITLE": "Skills",
+    "LANGUAGE_BLOC_TITLE": "Languages and Frameworks",
+    "LANGUAGE_BLOC_CPLUSPLUS_NAME": "C++",
+    "LANGUAGE_BLOC_CPLUSPLUS_EXP": "Intermediate",
+    "LANGUAGE_BLOC_CSHARP_NAME": "C#",
+    "LANGUAGE_BLOC_CSHARP_EXP": "Experienced",
+    "LANGUAGE_BLOC_JAVA_NAME": "Java",
+    "LANGUAGE_BLOC_JAVA_EXP": "Intermediate",
+    "LANGUAGE_BLOC_UNITY_NAME": "Unity",
+    "LANGUAGE_BLOC_UNITY_EXP": "Experienced",
+    "LANGUAGE_BLOC_MYSQL_NAME": "MySQL",
+    "LANGUAGE_BLOC_MYSQL_EXP": "Experienced",
+    "LANGUAGE_BLOC_ANGULAR_NAME": "Angular",
+    "LANGUAGE_BLOC_ANGULAR_EXP": "Intermediate",
+    "EXTTOOLS_BLOC_TITLE": "External Tools",
+    "EXTTOOLS_BLOC_GIT_NAME": "Git",
+    "EXTTOOLS_BLOC_GIT_EXP": "Intermediate",
+    "EXTTOOLS_BLOC_GITLAB_NAME": "GitLab",
+    "EXTTOOLS_BLOC_GITLAB_EXP": "Basics",
+    "EXTTOOLS_BLOC_VSTUDIO_NAME": "VS Code",
+    "EXTTOOLS_BLOC_VSTUDIO_EXP": "Intermediate",
+    "EXTTOOLS_BLOC_JIRA_NAME": "JIRA",
+    "EXTTOOLS_BLOC_JIRA_EXP": "Basics"
+  },
+  "CONTACT": {
+    "PRESENTATION_TEXT": "If you wish to",
+    "TITLE": "Contact Me"
+  },
+  "FOOTER": {
+    "ABOUT_NAVLINK": "About",
+    "SKILLS_NAVLINK": "Skills",
+    "PROJECTS_NAVLINK": "Projects",
+    "CONTACT_NAVLINK": "Contact",
+    "COPYRIGHT" : "Realised using Angular by Basile GALLOT",
+    "DATE" : "2024"
+  },
+    "PROJECTS" : {
+    "PRESENTATION_TEXT": "Browse my recent",
+    "TITLE" : "Projects",
+    "SUBTITLE" : "About the project",
+    "PROJECT_1_TITLE" : "Procedural terrain generation using GIS data",
+    "PROJECT_1_DESCRIPTION" : "Project 1 description (in coming)",
+    "PROJECT_1_TECHNOLOGIES" : "C#, Unity",
+    "PROJECT_2_TITLE" : "Project n°2 Sopra Steria (sensible datas)",
+    "PROJECT_2_DESCRIPTION" : "DAs part of certain experiments, it is necessary for the customer to manage a large number of interconnected software applications (in type and instance). The front end is developed using Angular, while the back end is provided by Salt-Stack, specialized in configuration management and infrastructure automation. During part of my work-study period, I was able to contribute to various tasks during the project, such as: - Technical fact-finding. - Various qualifications. - Development of the component installation part on all types of VM (front/back).",
+    "PROJECT_2_TECHNOLOGIES" : "Angular, TypeScript, HTML, CSS, Salt-Stack",
+    "PROJECT_3_TITLE" : "Creating a multiplayer video game",
+    "PROJECT_3_DESCRIPTION" : "I've always loved video games, and since my last year of study I've started making a type of game that was close to my heart. The game is called 'Allez mon Poulain', and is accessible via browser for computers or downloadable for Android phones. The aim is to create your character, and take on various opponents to win gold and experience. Each level offers new skills, and allows your character to specialize in 4 elemental types: Fire, Water, Ground and Lightning, each with its own specificity. A newly implemented inventory and store system allows for further character specialization.",
+    "PROJECT_3_TECHNOLOGIES" : "C#, Unity, .Net",
+    "TECHNOLOGIES_TEXT" : "Technologies : ",
+    "BUTTON_DETAILS" : "Details"
+  }
+}
