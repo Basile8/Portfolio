@@ -19,12 +19,12 @@
     "EXPERIENCE_BLOC_DOMAIN" : "Développeur logiciel",
     "EDUCATION_BLOC_TITLE" : "Formation",
     "EDUCATION_BLOC_DEGREE" : "Ingénieur généraliste, spécialisé en informatique",
-    "CONTENT_TEXT" : "Je m'appelle Basile Gallot"
+    "CONTENT_TEXT" : "Je m'appelle Basile, je suis un jeune développeur passionné par l'informatique, toujours curieux d'apprendre et de relever de nouveaux défis. Spécialisé en développement backend j'aime également m'améliorer sur d'autres technologies comme Angular pour le développement frontend. Mon objectif est de créer des solutions robustes et performantes tout en continuant à développer mes compétences dans divers domaines du développement. En dehors du code, j'aime me plonger dans les jeux vidéos, et j'ai l'habitude de faire du sport plusieurs fois par semaine, ce qui me permet de me dépenser, et de me changer les idées. Hâte de vous rencontrer !"
   },
   "SKILLS": {
     "PRESENTATION_TEXT": "Découvrez mes principales",
     "TITLE": "Compétences",
-    "LANGUAGE_BLOC_TITLE": "Languages and Frameworks",
+    "LANGUAGE_BLOC_TITLE": "Langages et Frameworks",
     "LANGUAGE_BLOC_CPLUSPLUS_NAME": "C++",
     "LANGUAGE_BLOC_CPLUSPLUS_EXP": "Intermédiaire",
     "LANGUAGE_BLOC_CSHARP_NAME": "C#",
@@ -48,7 +48,7 @@
     "EXTTOOLS_BLOC_JIRA_EXP": "Fondamentaux"
   },
   "CONTACT": {
-    "PRESENTATION_TEXT": "Si vous souhaiter",
+    "PRESENTATION_TEXT": "Si vous souhaitez",
     "TITLE": "Me Contacter"
   },
   "FOOTER": {
@@ -60,18 +60,18 @@
     "DATE" : "2024"
   },
   "PROJECTS" : {
-    "PRESENTATION_TEXT": "Parcourir mes différents",
+    "PRESENTATION_TEXT": "Parcourir mes récents",
     "TITLE" : "Projets",
-    "SUBTITLE_PROJECT" : "A propos du projet",
-    "PROJET_1_TITLE" : "Projet 1",
-    "PROJET_1_DESCRIPTION" : " Description projet 1 (à venir)",
-    "PROJET_1_TECHNOLOGIES" : "Angular, TypeScript, HTML, CSS, Salt-Stack",
-    "PROJET_2_TITLE" : "Projet n°2 Sopra Steria (sensible)",
-    "PROJET_2_DESCRIPTION" : "Dans le cadre de certaines expérimentations, il est nécessaire pour le client de piloter un grand nombre de logiciels (en type et en instance) interconnectés entre eux. Le front est développé à l'aide d'Angular, tandis que le back est assuré par Salt-Stack, spécialisé dans la gestion de configuration et d'automatisation des infrastructures. Durant une partie de mon alternance, j'ai pu contribuer à diverses tâches durant le projet, telles que : - La résolution de faits techniques. - Différentes qualifications. - Développement de la partie installation de composants sur tout type de VM (front/back).",
-    "PROJET_2_TECHNOLOGIES" : "Angular, TypeScript, HTML, CSS, Salt-Stack",
-    "PROJET_3_TITLE" : "Réalisation d'un jeux vidéo multijoueur",
-    "PROJET_3_DESCRIPTION" : "J'ai toujours aimé les jeux vidéos, et depuis ma dernière année d'étude j'ai commencé à réaliser un type de jeux qui me portait à coeur. Le jeux s'appelle 'Allez mon Poulain', et est accessible depuis navigateur pour ordinateur ou téléchargeable pour téléphone Android. L'objectif est de créer son personnage, et affronter divers adversaires pour remporter de l'or et de l'expérience. Chaque niveau offrira de nouvelles compétences, et permettra à votre personnage de se spécialiser à travers 4 types élémentaires : Feu, Eau, Sol et Foudre qui ont chacun leur spécificité. Un système d'inventaire et de magasin nouvellement implémenté permet une spécialisation accrue du personnage.",
-    "PROJET_3_TECHNOLOGIES" : "C#, Unity, .Net",
+    "SUBTITLE" : "A propos du projet",
+    "PROJECT_1_TITLE" : "Génération procédurale de terrain via données SIG",
+    "PROJECT_1_DESCRIPTION" : " Description projet 1 (à venir)",
+    "PROJECT_1_TECHNOLOGIES" : "Angular, TypeScript, HTML, CSS, Salt-Stack",
+    "PROJECT_2_TITLE" : "Projet n°2 Sopra Steria (sensible)",
+    "PROJECT_2_DESCRIPTION" : "Dans le cadre de certaines expérimentations, il est nécessaire pour le client de piloter un grand nombre de logiciels (en type et en instance) interconnectés entre eux. Le front est développé à l'aide d'Angular, tandis que le back est assuré par Salt-Stack, spécialisé dans la gestion de configuration et d'automatisation des infrastructures. Durant une partie de mon alternance, j'ai pu contribuer à diverses tâches durant le projet, telles que : - La résolution de faits techniques. - Différentes qualifications. - Développement de la partie installation de composants sur tout type de VM (front/back).",
+    "PROJECT_2_TECHNOLOGIES" : "Angular, TypeScript, HTML, CSS, Salt-Stack",
+    "PROJECT_3_TITLE" : "Réalisation d'un jeux vidéo multijoueur",
+    "PROJECT_3_DESCRIPTION" : "J'ai toujours aimé les jeux vidéos, et depuis ma dernière année d'étude j'ai commencé à réaliser un type de jeux qui me portait à coeur. Le jeux s'appelle 'Allez mon Poulain', et est accessible depuis navigateur pour ordinateur ou téléchargeable pour téléphone Android. L'objectif est de créer son personnage, et affronter divers adversaires pour remporter de l'or et de l'expérience. Chaque niveau offrira de nouvelles compétences, et permettra à votre personnage de se spécialiser à travers 4 types élémentaires : Feu, Eau, Sol et Foudre qui ont chacun leur spécificité. Un système d'inventaire et de magasin nouvellement implémenté permet une spécialisation accrue du personnage.",
+    "PROJECT_3_TECHNOLOGIES" : "C#, Unity, .Net",
     "TECHNOLOGIES_TEXT" : "Technologies : ",
     "BUTTON_DETAILS" : "Détails"
   }

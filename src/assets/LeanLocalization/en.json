@@ -19,7 +19,7 @@
     "EXPERIENCE_BLOC_DOMAIN" : "Software Development",
     "EDUCATION_BLOC_TITLE" : "Education",
     "EDUCATION_BLOC_DEGREE" : "Master of Science in engineering, specialized in computer science",
-    "CONTENT_TEXT" : "I'm Basile Gallot"
+    "CONTENT_TEXT" : "My name is Basile, a young developer with a passion for IT, always curious to learn and take on new challenges. Specialized in backend development, I also like to improve on other technologies like Angular for frontend development. My aim is to create robust, high-performance solutions while continuing to develop my skills in various areas of development. Aside from coding, I like to play video games, and I usually go in for a workout several times a week, which allows me to burn off some energy and take my mind off things. Looking forward to meeting you !"
   },
   "SKILLS": {
     "PRESENTATION_TEXT": "Discover my main",
@@ -60,20 +60,19 @@
     "DATE" : "2024"
   },
     "PROJECTS" : {
-    "PRESENTATION_TEXT": "Browse my different",
+    "PRESENTATION_TEXT": "Browse my recent",
     "TITLE" : "Projects",
     "SUBTITLE" : "About the project",
-    "PROJET_1_TITLE" : "Project 1",
-    "PROJET_1_DESCRIPTION" : "Project 1 description (in coming)",
-    "PROJET_1_TECHNOLOGIES" : "C#, Unity",
-    "PROJET_2_TITLE" : "Project n°2 Sopra Steria (sensible datas)",
-    "PROJET_2_DESCRIPTION" : "DAs part of certain experiments, it is necessary for the customer to manage a large number of interconnected software applications (in type and instance). The front end is developed using Angular, while the back end is provided by Salt-Stack, specialized in configuration management and infrastructure automation. During part of my work-study period, I was able to contribute to various tasks during the project, such as: - Technical fact-finding. - Various qualifications. - Development of the component installation part on all types of VM (front/back).",
-    "PROJET_2_TECHNOLOGIES" : "Angular, TypeScript, HTML, CSS, Salt-Stack",
-    "PROJET_3_TITLE" : "Creating a multiplayer video game",
-    "PROJET_3_DESCRIPTION" : "I've always loved video games, and since my last year of study I've started making a type of game that was close to my heart. The game is called 'Allez mon Poulain', and is accessible via browser for computers or downloadable for Android phones. The aim is to create your character, and take on various opponents to win gold and experience. Each level offers new skills, and allows your character to specialize in 4 elemental types: Fire, Water, Ground and Lightning, each with its own specificity. A newly implemented inventory and store system allows for further character specialization.",
-    "PROJET_3_TECHNOLOGIES" : "C#, Unity, .Net",
+    "PROJECT_1_TITLE" : "Procedural terrain generation using GIS data",
+    "PROJECT_1_DESCRIPTION" : "Project 1 description (in coming)",
+    "PROJECT_1_TECHNOLOGIES" : "C#, Unity",
+    "PROJECT_2_TITLE" : "Project n°2 Sopra Steria (sensible datas)",
+    "PROJECT_2_DESCRIPTION" : "DAs part of certain experiments, it is necessary for the customer to manage a large number of interconnected software applications (in type and instance). The front end is developed using Angular, while the back end is provided by Salt-Stack, specialized in configuration management and infrastructure automation. During part of my work-study period, I was able to contribute to various tasks during the project, such as: - Technical fact-finding. - Various qualifications. - Development of the component installation part on all types of VM (front/back).",
+    "PROJECT_2_TECHNOLOGIES" : "Angular, TypeScript, HTML, CSS, Salt-Stack",
+    "PROJECT_3_TITLE" : "Creating a multiplayer video game",
+    "PROJECT_3_DESCRIPTION" : "I've always loved video games, and since my last year of study I've started making a type of game that was close to my heart. The game is called 'Allez mon Poulain', and is accessible via browser for computers or downloadable for Android phones. The aim is to create your character, and take on various opponents to win gold and experience. Each level offers new skills, and allows your character to specialize in 4 elemental types: Fire, Water, Ground and Lightning, each with its own specificity. A newly implemented inventory and store system allows for further character specialization.",
+    "PROJECT_3_TECHNOLOGIES" : "C#, Unity, .Net",
     "TECHNOLOGIES_TEXT" : "Technologies : ",
     "BUTTON_DETAILS" : "Details"
-
   }
 }

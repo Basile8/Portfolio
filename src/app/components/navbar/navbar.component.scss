@@ -93,3 +93,24 @@
   text-decoration: none;
   transition: all 0.3 ease-in-out;
 }
+
+@media (max-width: 768px) {
+  #profile {
+    width: 90vw;
+  }
+  #desktop-nav {
+    display: none; /* Hide desktop nav */
+  }
+  #hamburger-nav {
+    display: flex; /* Ensure hamburger nav is shown */
+    justify-content: space-between; /* Space between the two */
+    flex-direction: row; /* Stack items vertically */
+    align-items: flex-start; /* Align items properly */
+  }
+  .hamburger-icon {
+    margin-top: 10px;
+  }
+  .menu-links li {
+  border: 1px solid black;
+  }
+}
